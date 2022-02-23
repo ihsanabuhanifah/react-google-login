@@ -1,7 +1,6 @@
 import { GoogleLogin } from "react-google-login";
 import { useNavigate, userNavigate } from "react-router-dom";
 import axios from "axios";
-import env from "react-dotenv";
 
 export default function Login() {
   let navigate = useNavigate();
